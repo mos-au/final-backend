@@ -1,0 +1,10 @@
+{
+  "name": "maktab47-panel-ex",
+  "version": "1.0.0",
+  "description": "Backend project for a frontend exercise for Maktab47 bootcamp, with json-server and file upload",
+  "main": "index.js",
+  "devDependencies": {
+    "json-server": "^0.16.3",
+    "multer": "^1.4.4"
+  }
+}
