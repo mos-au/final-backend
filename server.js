@@ -16,6 +16,8 @@ server.post("/upload", upload.single("image"), function (req, res, next) {
   res.json(req.file);
 });
 
+server.get("/", (req, res) => res.send("Express on Vercel"));
+
 server.get("/files/:file_id", (req, res, next) => {
   const { file_id } = req.params;
   console.log(req.params);
