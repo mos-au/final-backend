@@ -28,8 +28,8 @@ server.get("/files/:file_id", (req, res, next) => {
 server.use(jsonServer.bodyParser);
 server.use(router);
 
-server.listen(5000, () => {
-  console.log("Customized JSON-Server is running at http://localhost:5000/");
+server.listen(3000, () => {
+  console.log("Customized JSON-Server is running at http://localhost:3000/");
 });
 
 module.exports = server;
